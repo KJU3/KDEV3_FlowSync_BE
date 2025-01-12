@@ -40,4 +40,8 @@ tasks.named('test') {
     useJUnitPlatform()
 }
 
+tasks.named('bootJar') {
+    mainClass = 'com.checkping.api.ApiApplication'
+}
+
 tasks.register("prepareKotlinBuildScripModel") {}
