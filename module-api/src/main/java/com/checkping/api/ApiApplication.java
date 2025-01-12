@@ -19,7 +19,6 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @EnableJpaRepositories(basePackages = "com.checkping.infra.repository")
 @EnableJpaAuditing
 public class ApiApplication {
-
     public static void main(String[] args) {
         SpringApplication.run(ApiApplication.class, args);
     }
